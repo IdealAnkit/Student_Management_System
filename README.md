@@ -261,7 +261,7 @@ npm run dev
 <br><sub>Mobile-optimized printing for reports</sub>
 </td>
 <td align="center">
-<img src="https://img.icons8.com/fluency/48/000000/theme.png" width="40"/>
+<img src="https://img.icons8.com/?size=100&id=qu5s1Ou3hLx3&format=png&color=000000" width="40"/>
 <br><b>🎨 Dual Themes</b>
 <br><sub>Light and Neon theme options</sub>
 </td>
@@ -802,18 +802,10 @@ git push origin feature/amazing-feature
 <table>
 <tr>
 <td align="center">
-<img src="https://avatars.githubusercontent.com/u/1?v=4" width="100px"/><br/>
-<b>Your Name</b><br/>
+<img src="https://avatars.githubusercontent.com/u/155890684?v=4" width="100px"/><br/>
+<b>Ankit Kumar</b><br/>
 <sub>Lead Developer</sub>
-</td>
-<td align="center">
-<img src="https://avatars.githubusercontent.com/u/2?v=4" width="100px"/><br/>
-<b>Contributor 2</b><br/>
 <sub>Frontend Dev</sub>
-</td>
-<td align="center">
-<img src="https://avatars.githubusercontent.com/u/3?v=4" width="100px"/><br/>
-<b>Contributor 3</b><br/>
 <sub>Backend Dev</sub>
 </td>
 </tr>
@@ -855,27 +847,22 @@ git push origin feature/amazing-feature
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+![License: Custom](https://img.shields.io/badge/License-Custom-blueviolet?style=for-the-badge)
 
 </div>
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is **copyright © 2025 Ankit Kumar ([IdealAnkit](https://github.com/IdealAnkit))**.
 
-```
-MIT License
+You are free to use, modify, and share this project for **personal and educational purposes**.
 
-Copyright (c) 2025 Student Management System
+**Commercial use is strictly prohibited without explicit written permission from the author.**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+For commercial licensing or partnership inquiries, please contact:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
+- Email: [mrankitkumar1530@gmail.com](mailto:mrankitkumar1530@gmail.com)
+- LinkedIn: [idealankit](https://linkedin.com/in/idealankit)
+
+---
 
 ---
 
@@ -900,7 +887,6 @@ If you found this project helpful, please give it a ⭐ on GitHub!
 
 ### 💬 **Community & Support**
 
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-green?style=for-the-badge&logo=github)](../../discussions)
 [![Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](../../issues)
 
 </div>
