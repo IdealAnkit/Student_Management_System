@@ -395,12 +395,12 @@ fetch("/auth/login.php", {
 <tr>
 <td align="center">
 <h3>🌞 Light Theme</h3>
-<img src="https://via.placeholder.com/300x200/E3F2FD/1976D2?text=Light+Theme+Preview" alt="Light Theme"/>
+<img src="https://img.icons8.com/?size=100&id=qu5s1Ou3hLx3&format=png&color=000000" alt="Light Theme"/>
 <br><sub>Professional, clean design for daytime use</sub>
 </td>
 <td align="center">
 <h3>🌙 Neon Theme</h3>
-<img src="https://via.placeholder.com/300x200/181A20/00EAFF?text=Neon+Theme+Preview" alt="Neon Theme"/>
+<img src="https://img.icons8.com/?size=100&id=46205&format=png&color=000000" alt="Neon Theme"/>
 <br><sub>Modern, dark design with neon accents</sub>
 </td>
 </tr>
