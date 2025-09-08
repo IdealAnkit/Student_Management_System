@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS student_management;
+USE student_management;
+CREATE TABLE IF NOT EXISTS admins (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  password VARCHAR(255) NOT NULL
+);
+CREATE TABLE IF NOT EXISTS students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  roll_no VARCHAR(20),
+  course VARCHAR(50),
+  class VARCHAR(50)
+);
+CREATE TABLE IF NOT EXISTS marks (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  student_id INT,
+  subject VARCHAR(100),
+  marks INT,
+  FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE
+); 

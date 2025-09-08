@@ -1,0 +1,191 @@
+.login-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--login-bg, #181a20);
+  transition: background 0.3s;
+}
+
+.login-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  color: var(--login-title, #fff);
+  text-shadow: 0 0 8px #00eaff, 0 0 16px #ff00cc;
+}
+
+/* Neon/Dark Theme */
+.login-page-container.neon {
+  --login-bg: #181a20;
+  --login-title: #fff;
+}
+
+.login-page-container.neon .login-title {
+  text-shadow: 0 0 8px #00eaff, 0 0 16px #ff00cc;
+}
+
+/* Light Theme */
+.login-page-container.light {
+  --login-bg: #f7f7f7;
+  --login-title: #181a20;
+}
+
+.login-page-container.light .login-title {
+  text-shadow: 0 0 4px #00eaff, 0 0 8px #ff00cc;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 480px;
+  justify-content: center;
+}
+.login-input {
+  flex: 1 1 0;
+  padding: 12px 18px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  background: var(--login-input-bg, #23234a);
+  color: var(--login-input-color, #00eaff);
+  box-shadow: 0 0 8px #00eaff33;
+  border-right: 1.5px solid #00eaff;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+.login-input:last-of-type {
+  border-radius: 0 8px 8px 0;
+  border-right: none;
+}
+.login-input:focus {
+  box-shadow: 0 0 16px #ff00cc99;
+  border-color: #ff00cc;
+}
+.login-btn {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00eaff 0%, #ff00cc 100%);
+  color: #fff;
+  box-shadow: 0 0 12px #00eaff, 0 0 4px #ff00cc;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.login-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.login-btn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #ff00cc 0%, #00eaff 100%);
+  color: #fff;
+  box-shadow: 0 0 24px #ff00cc, 0 0 8px #00eaff;
+}
+
+/* Neon Theme */
+.login-page-container.neon {
+  --login-input-bg: #23234a;
+  --login-input-color: #00eaff;
+}
+/* Light Theme */
+.login-page-container.light {
+  --login-input-bg: #fff;
+  --login-input-color: #1976d2;
+}
+
+/* Theme Switcher Button - sticky upper right */
+.theme-switcher {
+  position: sticky;
+  top: 24px;
+  right: 24px;
+  float: right;
+  z-index: 10;
+  background: linear-gradient(90deg, #ff00cc 0%, #00eaff 100%);
+  color: #fff;
+  box-shadow: 0 0 8px #ff00cc;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 24px;
+  margin-top: 0;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.theme-switcher:hover {
+  background: linear-gradient(90deg, #00eaff 0%, #ff00cc 100%);
+  color: #fff;
+  box-shadow: 0 0 16px #00eaff;
+}
+
+/* Neon Theme for Login Page */
+.login-page-container.neon .theme-switcher,
+.login-page-container.neon .login-btn {
+  background: linear-gradient(90deg, #ff00cc 0%, #00eaff 100%);
+  color: #fff;
+  box-shadow: 0 0 8px #ff00cc;
+}
+
+.login-page-container.neon .login-btn:hover:not(:disabled),
+.login-page-container.neon .theme-switcher:hover {
+  background: linear-gradient(90deg, #00eaff 0%, #ff00cc 100%);
+  color: #fff;
+  box-shadow: 0 0 16px #00eaff;
+}
+
+/* Light Theme for Login Page */
+.login-page-container.light .theme-switcher,
+.login-page-container.light .login-btn {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  box-shadow: 0 0 8px #b3c6e0;
+}
+
+.login-page-container.light .login-btn:hover:not(:disabled),
+.login-page-container.light .theme-switcher:hover {
+  background: linear-gradient(90deg, #64b5f6 0%, #1976d2 100%);
+  color: #fff;
+  box-shadow: 0 0 16px #1976d2;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .login-title {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  .login-page-container {
+    padding: 1.5rem;
+  }
+  .login-form {
+    flex-direction: column;
+    gap: 12px;
+    max-width: 98vw;
+  }
+  .login-input, .login-btn {
+    border-radius: 8px !important;
+    margin-left: 0 !important;
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 12px;
+  }
+  .theme-switcher {
+    position: sticky;
+    top: 8px;
+    right: 8px;
+    float: right;
+    width: auto;
+    margin-bottom: 18px;
+    font-size: 0.98rem;
+    padding: 8px 12px;
+  }
+} 
