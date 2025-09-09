@@ -179,7 +179,104 @@ npm run dev
 
 ---
 
-## 📊 Database Schema
+## � Application Screenshots
+
+<div align="center">
+
+### 🌟 **Student Management System Interface Gallery**
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<h4>🔐 Login Interface</h4>
+<img src="./Visuals_UI/01.png" width="300" alt="Login Page"/>
+<br><sub>Secure admin authentication with dual theme support</sub>
+</td>
+<td align="center">
+<h4>📊 Main Dashboard</h4>
+<img src="./Visuals_UI/02.png" width="300" alt="Dashboard"/>
+<br><sub>Comprehensive student management overview</sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<h4>👥 Student List View</h4>
+<img src="./Visuals_UI/03.png" width="300" alt="Student List"/>
+<br><sub>Complete student records with search functionality</sub>
+</td>
+<td align="center">
+<h4>➕ Add New Student</h4>
+<img src="./Visuals_UI/04.png" width="300" alt="Add Student"/>
+<br><sub>Intuitive student registration form</sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<h4>✏️ Edit Student Information</h4>
+<img src="./Visuals_UI/05.png" width="300" alt="Edit Student"/>
+<br><sub>Modify existing student details seamlessly</sub>
+</td>
+<td align="center">
+<h4>📝 Marks Entry System</h4>
+<img src="./Visuals_UI/06.png" width="300" alt="Marks Entry"/>
+<br><sub>Grade management and marks input interface</sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<h4>📄 Report Card Generation</h4>
+<img src="./Visuals_UI/08.png" width="300" alt="Report Card"/>
+<br><sub>Professional report card display with print support</sub>
+</td>
+<td align="center">
+<h4>🔍 Advanced Search</h4>
+<img src="./Visuals_UI/09.png" width="300" alt="Search Functionality"/>
+<br><sub>Multi-field search and filtering capabilities</sub>
+</td>
+</tr>
+<tr>
+<td align="center">
+<h4>🌙 Dark Theme Interface</h4>
+<img src="./Visuals_UI/10.png" width="300" alt="Dark Theme"/>
+<br><sub>Beautiful neon theme for low-light environments</sub>
+</td>
+<td align="center">
+<h4>📱 Mobile Responsive Design</h4>
+<img src="./Visuals_UI/11.png" width="300" alt="Mobile View"/>
+<br><sub>Optimized mobile interface with touch-friendly controls</sub>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<h4>🖨️ Print-Ready Reports</h4>
+<img src="./Visuals_UI/12.png" width="300" alt="Print Preview"/>
+<br><sub>Mobile-optimized printing with professional formatting</sub>
+</td>
+</tr>
+</table>
+
+### **📸 Key Visual Features**
+
+<div align="center">
+
+![UI Features](https://img.shields.io/badge/UI%20Features-11%20Screenshots-blue?style=for-the-badge&logo=image)
+![Themes](https://img.shields.io/badge/Themes-Light%20%26%20Dark-purple?style=for-the-badge&logo=palette)
+![Responsive](https://img.shields.io/badge/Design-Fully%20Responsive-green?style=for-the-badge&logo=mobile)
+
+</div>
+
+- 🎨 **Modern UI Design**: Clean, intuitive interface with Material Design principles
+- 🌗 **Dual Theme Support**: Professional light theme and stunning neon dark theme
+- 📱 **Mobile Optimized**: Responsive design that works perfectly on all devices
+- 🖨️ **Print Ready**: Professional report generation with mobile print optimization
+- 🔍 **Smart Search**: Advanced filtering and search capabilities across all data
+- ⚡ **Fast Performance**: Smooth animations and instant user feedback
+
+---
+
+## �📊 Database Schema
 
 <div align="center">
 
