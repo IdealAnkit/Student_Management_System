@@ -183,76 +183,50 @@ npm run dev
 
 <div align="center">
 
-### 🌟 **Student Management System Interface Gallery**
-
-</div>
-
 <table align="center">
 <tr>
 <td align="center">
-<h4>🔐 Login Interface</h4>
-<img src="./Visuals_UI/01.png" width="300" alt="Login Page"/>
-<br><sub>Secure admin authentication with dual theme support</sub>
+<img src="./Visuals_UI/01.png" width="300"/>
 </td>
 <td align="center">
-<h4>📊 Main Dashboard</h4>
-<img src="./Visuals_UI/02.png" width="300" alt="Dashboard"/>
-<br><sub>Comprehensive student management overview</sub>
+<img src="./Visuals_UI/02.png" width="300"/>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h4>👥 Student List View</h4>
-<img src="./Visuals_UI/03.png" width="300" alt="Student List"/>
-<br><sub>Complete student records with search functionality</sub>
+<img src="./Visuals_UI/03.png" width="300"/>
 </td>
 <td align="center">
-<h4>➕ Add New Student</h4>
-<img src="./Visuals_UI/04.png" width="300" alt="Add Student"/>
-<br><sub>Intuitive student registration form</sub>
+<img src="./Visuals_UI/04.png" width="300"/>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h4>✏️ Edit Student Information</h4>
-<img src="./Visuals_UI/05.png" width="300" alt="Edit Student"/>
-<br><sub>Modify existing student details seamlessly</sub>
+<img src="./Visuals_UI/05.png" width="300"/>
 </td>
 <td align="center">
-<h4>📝 Marks Entry System</h4>
-<img src="./Visuals_UI/06.png" width="300" alt="Marks Entry"/>
-<br><sub>Grade management and marks input interface</sub>
+<img src="./Visuals_UI/06.png" width="300"/>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h4>📄 Report Card Generation</h4>
-<img src="./Visuals_UI/08.png" width="300" alt="Report Card"/>
-<br><sub>Professional report card display with print support</sub>
+<img src="./Visuals_UI/08.png" width="300"/>
 </td>
 <td align="center">
-<h4>🔍 Advanced Search</h4>
-<img src="./Visuals_UI/09.png" width="300" alt="Search Functionality"/>
-<br><sub>Multi-field search and filtering capabilities</sub>
+<img src="./Visuals_UI/09.png" width="300"/>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h4>🌙 Dark Theme Interface</h4>
-<img src="./Visuals_UI/10.png" width="300" alt="Dark Theme"/>
-<br><sub>Beautiful neon theme for low-light environments</sub>
+<img src="./Visuals_UI/10.png" width="300"/>
 </td>
 <td align="center">
-<h4>📱 Mobile Responsive Design</h4>
-<img src="./Visuals_UI/11.png" width="300" alt="Mobile View"/>
-<br><sub>Optimized mobile interface with touch-friendly controls</sub>
+<img src="./Visuals_UI/11.png" width="300"/>
 </td>
 </tr>
 <tr>
 <td align="center" colspan="2">
-<h4>🖨️ Print-Ready Reports</h4>
-<img src="./Visuals_UI/12.png" width="300" alt="Print Preview"/>
-<br><sub>Mobile-optimized printing with professional formatting</sub>
+<img src="./Visuals_UI/12.png" width="300"/>
 </td>
 </tr>
 </table>
