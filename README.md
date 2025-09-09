@@ -239,18 +239,17 @@ npm run dev
 ![Themes](https://img.shields.io/badge/Themes-Light%20%26%20Dark-purple?style=for-the-badge&logo=palette)
 ![Responsive](https://img.shields.io/badge/Design-Fully%20Responsive-green?style=for-the-badge&logo=mobile)
 
-</div>
-
 - 🎨 **Modern UI Design**: Clean, intuitive interface with Material Design principles
 - 🌗 **Dual Theme Support**: Professional light theme and stunning neon dark theme
 - 📱 **Mobile Optimized**: Responsive design that works perfectly on all devices
 - 🖨️ **Print Ready**: Professional report generation with mobile print optimization
 - 🔍 **Smart Search**: Advanced filtering and search capabilities across all data
 - ⚡ **Fast Performance**: Smooth animations and instant user feedback
+</div>
 
 ---
 
-## �📊 Database Schema
+## ��� Database Schema
 
 <div align="center">
 
